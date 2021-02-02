@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neelmani Shukla</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+	<nav>
+		<div class="menu" onclick="myFunction()">
+	       <div class="line1"></div>
+	       <div class="line2"></div>
+	       <div class="line3"></div>
+        </div>
+
+		<h1><span class="logo">LOGO</span></h1>
+
+		<ul class="listClass">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Activities</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	<aside>
+	  <div class="asidebar">
+	  	<ul id="list">
+	  		<li><a href="#">Maal</a></li>
+	  		<li><a href="https://en.wikipedia.org/wiki/Raebareli">Neelmani</a></li>
+	  		<li><a href="https://en.wikipedia.org/wiki/Gorakhpur">Ravi</a></li>
+	  		<li><a href="https://en.wikipedia.org/wiki/Ghazipur">Ghunghroo</a></li>
+	  		<li><a href="https://en.wikipedia.org/wiki/Punjab,_India">Neha</a></li>
+	  		<li><a href="https://en.wikipedia.org/wiki/Varanasi">Akash</a></li>
+
+	  	</ul>
+	  </div>
+    </aside>
+    <h1 class="country">INDIA</h1>
+    <div class="chakra">
+       <img src="ashokchakra.png">
+    </div>
+	<script type="text/javascript">
+		function myFunction(){
+			let menu= document.querySelector(".menu");
+            menu.classList.toggle("change");
+
+            let aside=document.querySelector(".asidebar");
+            aside.classList.toggle("variation");
+
+            // let showList=document.getElementById("list").style.display="none";
+            // document.getElementById("list").classList.toggle(showList);
+          
+		}
+	</script>
+</body>
+</html>
